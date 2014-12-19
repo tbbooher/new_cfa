@@ -1,4 +1,4 @@
-<?php
+h<?php
 /**
  * Template for quote post format
  * 

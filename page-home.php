@@ -9,7 +9,10 @@ get_header();
 
 ?>
 				<div class="container">
-                    <div class="row">
+                    <div class="row hidden-sm hidden-xs" align="center">
+                          <?php if ( function_exists( "easingsliderlite" ) ) { easingsliderlite(); } ?>
+                    </div>
+                    <div class="row" style="padding-top:20px;">
                         <div class="col-lg-4 col-md-4 col-sm-4">
                             <?php
                                 $args = array( 'post_type' => 'wod', 'posts_per_page' => 1 );
