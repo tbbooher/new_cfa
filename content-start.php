@@ -21,42 +21,29 @@
               <div class="pricing tab-content tab-content-custom well">
                 <div role="tabpanel" class="tab-pane fade in active" id="elements">
                   <p>
-                      These classes last about one hour and are made up of two to three
-                      new skills that will be focused on each session. There will also
-                      be a WOD for the second portion of the class. We need to know that
-                      you can demonstrate a basic level of technical proficiency in these
-                      movements, before moving on to our membership status. This designed
-                      curriculum is necessary for all new members to our program.
-                      Mandatory completion is required, before signing up for a membership.
-                      These classes teach movements for optimal safety and performance
-                      in our program.
+                      Our Elements program is the comprehensive introduction to CrossFit at CFA.  Over a number of 
+                      hour-long sessions, you will learn a variety of required skills and movements.  We focus on range 
+                      of motion, mechanics, proficiency, and scaling options.  Successful completion of the Elements 
+                      program is required for membership.
                   </p>
                   <div class="row">
-                    <div class="col-md-4">
-                      <h3 class="pricing-desc">Large Group</h3>
-                      <h4 class="pricing-cost special"><small>$</small>190</h4>
+                    <div class="col-md-8">
+                      <h3 class="pricing-desc">Group Element Sessions</h3>
+                      <h4 class="pricing-cost special"><small>$</small>199</h4>
                       <ul class="pricing-list">
-                        <li>Group Setting</li>
-                        <li>8 total classes</li>
-                        <li>2X a week for 1 month</li>
+                        <li>Group class Setting</li>
+                        <li>8 total sessions</li>
+                        <li>Twice a week for 4 weeks</li>
                       </ul>
                     </div>
-                    <div class="col-md-4">
-                      <h3 class="pricing-desc">Small Group</h3>
-                      <h4 class="pricing-cost"><small>$</small>330</h4>
+                    <div class="col-md-8">
+                      <h3 class="pricing-desc">Private Elements Sessions</h3>
+                      <h4 class="pricing-cost"><small>$</small>330/Small Group (2-3 persons)</h4>
+                      <h4 class="pricing-cost"><small>$</small>450/One on one</h4>
                       <ul class="pricing-list">
-                        <li>Small Group Setting (2-3) participants</li>
-                        <li>8 total classes</li>
-                        <li>2X a week for 1 month</li>
-                      </ul>
-                    </div>
-                    <div class="col-md-4">
-                      <h3 class="pricing-desc">Private</h3>
-                      <h4 class="pricing-cost"><small>$</small>450</h4>
-                      <ul class="pricing-list">
-                        <li>Individual One on One</li>
-                        <li>8 total classes</li>
-                        <li>2X a week for 1 month</li>
+                        <li>Small class setting</li>
+                        <li>6-8 total sessions</li>
+                        <li>Twice a week for 3 weeks</li>
                       </ul>
                     </div>
                   </div>
