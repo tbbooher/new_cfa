@@ -28,7 +28,7 @@
                   </p>
                   <div class="row">
                     <div class="col-md-6">
-                      <h3 class="pricing-desc">Group Element Sessions</h3>
+                      <h3 class="pricing-desc">Group Elements</h3>
                       <h4 class="pricing-cost special"><small>$</small>199</h4>
                       <ul class="pricing-list">
                         <li>Group class Setting</li>
@@ -37,7 +37,7 @@
                       </ul>
                     </div>
                     <div class="col-md-6">
-                      <h3 class="pricing-desc">Private Elements Sessions</h3>
+                      <h3 class="pricing-desc">Private Elements</h3>
                       <h4 class="pricing-cost"><small>$</small>330/Small Group (2-3 persons)</h4>
                       <h4 class="pricing-cost"><small>$</small>450/One on one</h4>
                       <ul class="pricing-list">
@@ -52,7 +52,7 @@
                 </div>
                 <div role="tabpanel" class="tab-pane fade " id="membership">
                    <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                       <h3 class="pricing-cost"><small>$</small>160/month</h3>
                       <ul class="pricing-list">
                         <li>9x WODs</li>
@@ -60,14 +60,7 @@
                         <li>Unlimited Olympic Lifting Workshop</li>
                       </ul>
                     </div>
-                    <div class="col-md-3">
-                      <h3 class="pricing-cost"><small>$</small>180/month</h3>
-                      <ul class="pricing-list">
-                        <li>10 class punch cards</li>
-                        <li>WODs Only</li>
-                      </ul>
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                       <h3 class="pricing-cost"><small>$</small>195/month</h3>
                       <ul class="pricing-list">
                         <li>13x WODs</li>
@@ -75,7 +68,7 @@
                         <li>Unlimited Olympic Lifting Workshop</li>
                       </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                       <h3 class="pricing-cost"><small>$</small>220/month</h3>
                       <ul class="pricing-list">
                         <li>Unlimited WODs</li>
