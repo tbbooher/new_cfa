@@ -14,7 +14,7 @@
                 <li role="presentation" class="active"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab">Elements</a></li>
                 <li role="presentation"><a href="#membership" aria-controls="membership" role="tab" data-toggle="tab">Membership</a></li>
                 <li role="presentation"><a href="#barbell_club" aria-controls="barbell_club" role="tab" data-toggle="tab">Barbell Club</a></li>
-                <li role="presentation"><a href="#skills_test" aria-controls="skills_test" role="tab" data-toggle="tab">Skills Test/Drop In</a></li>
+                <li role="presentation"><a href="#skills_test" aria-controls="skills_test" role="tab" data-toggle="tab">Drop In/Test In</a></li>
               </ul>
 
               <!-- Tab panes -->
@@ -77,15 +77,19 @@
                       </ul>
                     </div>                    
                   </div>
-                  <h4>Discounts</h4>
+                  <h4 style="margin-top: 30px;">Discounts</h4>
                   <ul>
                     <li>15% off – Sworn Law Enforcement Officers, Active Military, Fire Fighters, and Full-time Teachers</li>
                     <li>10% off – Married couple memberships</li>
                   </ul>
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="barbell_club">
-                  <p>The Adaptation Barbell Club meets at CFA every Tuesday and Thursday at 7:30 PM, and Sundays at 11:30 AM. Rick runs every Sunday and Tuesday workouts. If you’re interested in taking your Olympic lifts beyond the Sunday workshop, this is your opportunity.</p>
-                  <p>The focused lifts are the clean and jerk and the snatch. A percentage based program is utilized with a multitude of other lifts, to include the romanian deadlift, snatch pulls, and back squats, just to name a few. These sessions generally last one hour.</p>
+                  <p>The Adaptation Barbell Club meets at CFA every Tuesday and Thursday at 7:30 PM, and Sundays at 11:30 AM.
+                      Coach Rick Bucinell runs every Sunday and Tuesday workouts. If you’re interested in taking your Olympic
+                      lifts beyond the Sunday workshop, this is your opportunity.</p>
+                  <p>The focused lifts are the clean and jerk and the snatch. A percentage based program
+                      is utilized with a multitude of other lifts, to include the romanian deadlift, snatch pulls,
+                      and back squats, just to name a few. These sessions generally last one hour.</p>
                   <div class="row">
                     <div class="col-md-6">
                       <h3 class="pricing-desc">Current CFA Members</h3>
@@ -100,12 +104,13 @@
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="skills_test">
                   <h3>Skills Test-in</h3>
-                  <p>If you are new to our affiliate, this option allows you to test-in for membership. The test requires you to effectively demonstrate a variety of CrossFit skills with proper mechanics. This is typically reserved for those that have trained extensively at another CrossFit affiliate.</p>
-                  <h4>Test-In Fee: $15</h4>
-                  <p>After successful completion of the test-in, membership is offered and you can sign-up. If interested, just <a href="info@crossfitadaptation.com">email us at info@crossfitadaptation.com</a>.</p>
+                  <p>If you are new to our affiliate, this option allows you to test-in for membership. The test requires you
+                      to effectively demonstrate a variety of skills with proper mechanics. This is typically reserved
+                      for those that have previously trained at another CrossFit affiliate. Test-in fee is $15.</p>
+                  <p>If interested, just <a href="info@crossfitadaptation.com">email us at info@crossfitadaptation.com</a>.</p>
                   <h3>Drop-ins</h3>
-                  <h4>Drop-In fee: $20</h4>
-                  <h4>Drop-In fee w/ shirt or tank: $30</h4>
+                  <p>We always welcome visitors and drop-ins from out of town. No need to sign up ahead of time.
+                     Find a coach upon arrival to our gym. Our drop-in fee is $20, or $30 with a shirt or tank top.</h4>
                 </div>
               </div>
             </div>
