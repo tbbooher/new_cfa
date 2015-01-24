@@ -41,7 +41,7 @@
       <div class="container center-header-sm clearfix">
           <div class="left-col pull-left hidden-xs">
             <span><i class="fa fa-phone"></i> Call Us: 703-362-8195</span>
-            <span><i class="fa fa-envelope"></i> Email: info@crossfitadaptation.com</span>
+            <span><i class="fa fa-envelope"></i> Email: <a href="mailto:info@crossfitadaptation.com">info@crossfitadaptation.com</a></span>
           </div>
           <div class="pull-right">
             <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav nav-pills center-header-sm', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
