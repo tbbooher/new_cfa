@@ -66,6 +66,14 @@ h1, h2, h3, h4, h5 {
     color: $heading-font-color;
 }
 
+//@media (min-width: $screen-sm) {
+//    .entry-header {
+//     // hide on desktop
+//      //@include responsive-invisibility('.visible-xs');
+//        display: none;
+//    }    
+//}
+
 .ch-item {
     width: 100%;
     height: 100%;

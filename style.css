@@ -11398,7 +11398,13 @@ h1, h2, h3, h4, h5 {
   color: #777777;
 }
 
-/* line 69, sass/style.scss */
+@media (min-width: 768px) {
+  /* line 70, sass/style.scss */
+  .entry-header {
+    display: none;
+  }
+}
+/* line 77, sass/style.scss */
 .ch-item {
   width: 100%;
   height: 100%;
@@ -11406,16 +11412,16 @@ h1, h2, h3, h4, h5 {
   cursor: default;
 }
 
-/* line 76, sass/style.scss */
+/* line 84, sass/style.scss */
 .pad-above {
   padding-top: 40px;
 }
 
-/* line 80, sass/style.scss */
+/* line 88, sass/style.scss */
 div.content-box {
   clear: both;
 }
-/* line 82, sass/style.scss */
+/* line 90, sass/style.scss */
 div.content-box.big {
   min-height: 300px;
   border-style: solid;
@@ -11432,90 +11438,90 @@ div.content-box.big {
   -ms-transition: background .5s ease-in-out;
   transition: background .5s ease-in-out;
 }
-/* line 98, sass/style.scss */
+/* line 106, sass/style.scss */
 div.content-box .box_content {
   margin: 25px 0 0;
   padding-left: 0;
 }
 
-/* line 104, sass/style.scss */
+/* line 112, sass/style.scss */
 .bottom-pad-small {
   margin-bottom: 30px;
 }
 
-/* line 108, sass/style.scss */
+/* line 116, sass/style.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 114, sass/style.scss */
+/* line 122, sass/style.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 122, sass/style.scss */
+/* line 130, sass/style.scss */
 .wp-caption {
   border: 1px solid #ccc;
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-/* line 126, sass/style.scss */
+/* line 134, sass/style.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 1.2% auto 0;
   max-width: 98%;
 }
 
-/* line 133, sass/style.scss */
+/* line 141, sass/style.scss */
 .wp-caption-text {
   text-align: center;
 }
 
-/* line 137, sass/style.scss */
+/* line 145, sass/style.scss */
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
 
-/* line 141, sass/style.scss */
+/* line 149, sass/style.scss */
 .well {
   background-color: white;
 }
 
-/* line 145, sass/style.scss */
+/* line 153, sass/style.scss */
 .wod-image {
   padding: 2em;
 }
 
 /* Custom CSS Navkum - Edited by Derick */
-/* line 153, sass/style.scss */
+/* line 161, sass/style.scss */
 .coach.row {
   margin-top: 2em;
 }
-/* line 157, sass/style.scss */
+/* line 165, sass/style.scss */
 .coach.row:first-child {
   margin-top: 0;
 }
-/* line 161, sass/style.scss */
+/* line 169, sass/style.scss */
 .coach h2 {
   margin-top: 0px;
 }
-/* line 165, sass/style.scss */
+/* line 173, sass/style.scss */
 .coach hr {
   background-color: #c91e20;
   height: 1px;
 }
 
-/* line 171, sass/style.scss */
+/* line 179, sass/style.scss */
 ul.community {
   height: 100%;
   white-space: nowrap;
   margin: 0;
 }
-/* line 175, sass/style.scss */
+/* line 183, sass/style.scss */
 ul.community li {
   margin-bottom: 0.7em !important;
 }

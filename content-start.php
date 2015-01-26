@@ -47,8 +47,9 @@
                       </ul>
                     </div>
                   </div>
-                  <h5 class="pricing-special">15% discount offered to Law Enforcement Officers (LEO), Active Military (MIL), Firefighters (FF), and Full-time Teachers (FTT).</h5>
-                  <h5>Our memberships are all month to month. Upon completion of elements, you will be enrolled in an unlimited membership.
+                  <h5 class="pricing-special">15% discount offered to Law Enforcement Officers (LEO), Active Military (MIL), Firefighters (FF),
+                      and Full-time Teachers (FTT).</h5>
+                  <h5>Our memberships are all month to month. Upon completion of Elements, you will be enrolled in an unlimited membership.
                        To cancel or change for any given month <a href="mailto:lisa@crossfitadaptation.com">email lisa@crossfitadaptation.com</a>.</h5>
                 </div>
                 <div role="tabpanel" class="tab-pane fade " id="membership">

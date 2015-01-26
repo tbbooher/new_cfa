@@ -66,6 +66,13 @@ function bootstrapBasicSetup()
 }// bootstrapBasicSetup
 add_action('after_setup_theme', 'bootstrapBasicSetup');
 
+/**
+ * Shortcode for next date link
+ */
+function elements_link_fun() {
+ return "<a href=\"" . site_url("/events/free-workout-" . date("Y-m-d", strtotime("next Saturday"))) . "/\">here</a>";
+}
+add_shortcode( 'elements_link', 'elements_link_fun' );
 
 /**
  * Register widget areas
