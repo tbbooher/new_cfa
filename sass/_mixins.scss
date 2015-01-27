@@ -5,3 +5,20 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+//@mixin table-li($state, $background) {
+// // Exact selectors below required to override `.table-striped` and prevent
+//  // inheritance to nested tables.
+//  .table > tr > li.#{$state} {
+//      background-color: $background;
+//  }
+//
+//  // Hover states for `.table-hover`
+//  // Note: this is not available for cells or rows within `thead` or `tfoot`.
+//  .table-hover > tbody > tr {
+//    > li.#{$state}:hover,
+//    &.#{$state}:hover > li {
+//      background-color: darken($background, 5%);
+//    }
+//  }    
+//}

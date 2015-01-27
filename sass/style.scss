@@ -184,3 +184,21 @@ ul.community {
         margin-bottom: 0.7em !important;   
     }
 }
+
+.schedule td, .schedule th {
+  text-align: center;   
+}
+
+td.workout_time {
+    text-align: left;
+}
+
+.table tbody>tr>td.workout_time{
+    vertical-align: middle;
+}
+
+//@include table-li('active', $table-bg-active);
+//@include table-li('success', $state-success-bg);
+//@include table-li('info', $state-info-bg);
+//@include table-li('warning', $state-warning-bg);
+//@include table-li('danger', $state-danger-bg);

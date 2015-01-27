@@ -43,8 +43,7 @@ get_header();
         <?php } //endif; ?> 
     </main>
 </div>
-<aside class="col-sm-5 col-md-3 col-lg-4 content-area">
-    <?php dynamic_sidebar('sidebar-right'); ?>
+<aside class="col-sm-5 col-md-3 col-lg-4 content-area">    
     <?php get_template_part('sidebar','right'); ?>
 </aside>
 

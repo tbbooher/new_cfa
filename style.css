@@ -11519,3 +11519,18 @@ ul.community {
 ul.community li {
   margin-bottom: 0.7em !important;
 }
+
+/* line 188, sass/style.scss */
+.schedule td, .schedule th {
+  text-align: center;
+}
+
+/* line 192, sass/style.scss */
+td.workout_time {
+  text-align: left;
+}
+
+/* line 196, sass/style.scss */
+.table tbody > tr > td.workout_time {
+  vertical-align: middle;
+}

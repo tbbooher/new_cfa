@@ -11,6 +11,8 @@
         endwhile;
     ?>    
 </div>
+<?php dynamic_sidebar('sidebar-right'); ?>
+<div>&nbsp;</div>
 <div class="content-box big ch-item bottom-pad-small">
     <?php
       $args = array( 'post_type' => 'business_item', 'posts_per_page' => 1 );
