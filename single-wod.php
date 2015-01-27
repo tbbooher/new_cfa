@@ -38,10 +38,12 @@ get_header();
     </main>
 </div>
 <aside class="col-sm-5 col-md-3 col-lg-4 content-area">
+<!--
     <h3>Leaderboard</h3>
     <div class="content-box big ch-item bottom-pad-small well">
 
     </div>
+-->
     <?php get_template_part('sidebar','right'); ?>
 </aside>
 <?php get_footer(); ?> 
