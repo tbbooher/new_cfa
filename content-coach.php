@@ -10,7 +10,8 @@
             <?php the_title(); ?>
         </h2>
         <div>
-          <a href="mailto:<?php get_post_meta(get_the_ID(), 'email', true) ?>"> <i class="fa fa-envelope"></i> <?php the_title(); ?></a>                    
+          <a href="mailto:<?php echo get_post_meta(get_the_ID(), 'email', true) ?>"> <i class="fa fa-envelope"></i> Email <?php the_title(); ?></a>
+          <p><?php echo get_post_meta(get_the_ID(), 'title', true) ?></p>
           <?php bootstrapBasicEditPostLink(); ?>
         </div>
       </div>
