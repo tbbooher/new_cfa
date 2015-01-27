@@ -11398,12 +11398,6 @@ h1, h2, h3, h4, h5 {
   color: #777777;
 }
 
-@media (min-width: 768px) {
-  /* line 70, sass/style.scss */
-  .entry-header {
-    display: none;
-  }
-}
 /* line 77, sass/style.scss */
 .ch-item {
   width: 100%;

@@ -18,15 +18,8 @@
             <div class="container">
               <div class="row">
                 <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-one">
-                    <h3>Footer Left</h3>
-                    <p>This should be social content, like a sample of flickr pictures</p>
-                    <?php 
-                        if (!dynamic_sidebar('footer-left')) {
-                            printf(__('Powered by %s', 'bootstrap-basic'), 'WordPress');
-                            echo ' | ';
-                            printf(__('Theme: %s', 'bootstrap-basic'), '<a href="http://okvee.net">Bootstrap Basic</a>');
-                        } 
-                    ?> 
+                    <h3>Upcoming Events</h3>
+                    <?php dynamic_sidebar('footer-left'); ?>
                 </section>
                 <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-two">
                     <?php get_template_part('sidebar','community'); ?>

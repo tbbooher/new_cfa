@@ -15,6 +15,14 @@ if (!isset($content_width)) {
 	$content_width = 1170;
 }
 
+/**
+ * remove posts
+ */
+function post_remove () 
+{ 
+   remove_menu_page('edit.php');
+} 
+add_action('admin_menu', 'post_remove');
 
 /**
  * a basic function to display posts
@@ -73,6 +81,34 @@ function elements_link_fun() {
  return "<a href=\"" . site_url("/events/free-workout-" . date("Y-m-d", strtotime("next Saturday"))) . "/\">here</a>";
 }
 add_shortcode( 'elements_link', 'elements_link_fun' );
+
+// shortcode for emailing lisa D
+function info_email_fun($atts) {
+ if ($atts == '') {
+   $atts['text'] = 'here';  
+ }      
+ return "<a href=\"mailto:info@crossfitadaptation.com\">{$atts['text']}</a>";
+}
+add_shortcode( 'info_mail', 'info_email_fun' );
+
+// shortcode for emailing lisa D
+function membership_email_fun($atts) {
+ if ($atts == '') {
+   $atts['text'] = 'here';  
+ }      
+ return "<a href=\"mailto:membership@crossfitadaptation.com\">{$atts['text']}</a>";
+}
+add_shortcode( 'membership_mail', 'membership_email_fun' );
+
+function email_admin_fun($atts) {
+    // Lisa Donnelly <lisagivens19@gmail.com>
+ if ($atts == '') {
+   $atts['text'] = 'here';
+   $atts['email'] = 'lisagivens19@gmail.com';
+ }     
+ return "<a href=\"mailto:{$atts['email']}\">{$atts['text']}</a>";   
+}
+add_shortcode( 'admin_mail', 'info_email_fun' );
 
 /**
  * Register widget areas

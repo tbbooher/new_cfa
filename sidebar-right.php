@@ -1,4 +1,4 @@
-<h3>Upcoming Events</h3>
+<h3>Latest News</h3>
 <div class="content-box big ch-item bottom-pad-small">
     <?php
         $args = array( 'post_type' => 'news_item', 'posts_per_page' => 1 );
@@ -11,7 +11,6 @@
         endwhile;
     ?>    
 </div>
-<h3>Latest News</h3>
 <div class="content-box big ch-item bottom-pad-small">
     <?php
       $args = array( 'post_type' => 'business_item', 'posts_per_page' => 1 );
