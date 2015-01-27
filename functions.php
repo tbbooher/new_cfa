@@ -77,8 +77,12 @@ add_action('after_setup_theme', 'bootstrapBasicSetup');
 /**
  * Shortcode for next date link
  */
-function elements_link_fun() {
- return "<a href=\"" . site_url("/events/free-workout-" . date("Y-m-d", strtotime("next Saturday"))) . "/\">here</a>";
+function elements_link_fun($atts) {
+ if ($atts == '') {
+   $atts['text'] = 'here';  
+ }
+ $url = site_url("/events/free-workout-".date("Y-m-d", strtotime("next Saturday")));
+ return "<a href=\"{$url}/\">{$atts['text']}</a>";
 }
 add_shortcode( 'elements_link', 'elements_link_fun' );
 
