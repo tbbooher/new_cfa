@@ -11534,3 +11534,8 @@ td.workout_time {
 .table tbody > tr > td.workout_time {
   vertical-align: middle;
 }
+
+/* line 206, sass/style.scss */
+#the_schedule_panels {
+  display: none;
+}
