@@ -6,7 +6,7 @@
 	<div class="entry-content">
 		<?php the_content(); ?> 
         <!-- custom schedlue content -->
-  <div role="tabpanel">
+  <div role="tabpanel" id="the_schedule_panels">
     <ul class="nav nav-tabs nav-justified nav-tabs-custom" role="tablist">
       <li role="presentation" class="active"><a href="#sunday" aria-controls="sunday" role="tab" data-toggle="tab">Sunday</a></li>
       <li role="presentation"><a href="#monday" aria-controls="monday" role="tab" data-toggle="tab">Monday</a></li>
