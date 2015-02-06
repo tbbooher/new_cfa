@@ -24,6 +24,7 @@ get_header();
                       $permalink = get_permalink( get_the_ID());
                       $image = get_the_post_thumbnail(get_the_ID(), 'medium', array( 'class' => 'img-thumbnail hidden-xs' ));
                     endwhile;
+                    wp_reset_postdata();
                     if ($image == '') {
                         $image = '<img src="'.get_bloginfo('template_directory').'/img/Cookies.jpg">';
                     };
@@ -44,6 +45,7 @@ get_header();
                         }
                         echo "\n\n";
                     } //endwhile;
+                    wp_reset_postdata();
                     ?>
             </div>                      
         </div>
@@ -56,7 +58,7 @@ get_header();
                         <h3>Workout of the Day</h3>
                         <h4><a href="<?php echo $permalink ?>"><?php echo $title; ?></a></h4>
                         <div class="entry-content">
-                            <?php echo $content; ?>
+                            <?php echo apply_filters( 'the_content', $content ); ?>
                         </div>
                     </div>
                 </div>
@@ -74,6 +76,7 @@ get_header();
                           the_content();
                           echo '</div>';
                         endwhile;
+                        wp_reset_postdata();
                         ?>
                     </div>
                 </div>
