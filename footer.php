@@ -35,7 +35,7 @@
                       </p>
                     </li>
                     <li> <i class="fa fa-phone"></i>
-                      <p><strong>Phone:</strong> +880 111-111-111</p>
+                      <p><strong>Phone:</strong>703-362-8195</p>
                     </li>
                     <li> <i class="fa fa-envelope"></i>
                       <p><strong>Email:</strong><a href="mailto:info@crossfitadaptation.com">info@crossfitadaptation.com</a></p>
