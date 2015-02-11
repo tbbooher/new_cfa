@@ -30,12 +30,12 @@
                     <li> <i class="fa fa-map-marker"></i>
                       <p>
                         <strong class="contact-pad">Address:</strong>
-                        <br>4144 S 4 Mile Run Dr<br> 
+                        <br>4144 S Four Mile Run Dr<br> 
                         Arlington, VA 22206
                       </p>
                     </li>
                     <li> <i class="fa fa-phone"></i>
-                      <p><strong>Phone:</strong>703-362-8195</p>
+                      <p><strong>Phone:</strong> 703-362-8195</p>
                     </li>
                     <li> <i class="fa fa-envelope"></i>
                       <p><strong>Email:</strong><a href="mailto:info@crossfitadaptation.com">info@crossfitadaptation.com</a></p>
