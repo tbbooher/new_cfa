@@ -27,7 +27,7 @@ get_header();
                     
             <?php
                 $i = 1;
-                $args = array( 'post_type' => 'coach', 'posts_per_page' => 20 );
+                $args = array( 'post_type' => 'coach', 'posts_per_page' => 30 );
                 $loop = new WP_Query( $args );
                 //added before to ensure it gets opened
                 echo '<div class="row coach">';
