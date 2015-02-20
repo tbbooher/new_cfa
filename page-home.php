@@ -60,7 +60,6 @@ get_header();
                         <div class="entry-content">
                             <?php echo apply_filters( 'the_content', $content ); ?>
                         </div>
-                        <span class="comments-link"><?php bootstrapBasicCommentsPopupLink(); ?></span>
                     </div>
                 </div>
             </div>
