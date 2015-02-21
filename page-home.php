@@ -22,6 +22,7 @@ get_header();
                       $title = get_the_title();
                       $content = get_the_content();
                       $permalink = get_permalink( get_the_ID());
+                      $comments =  get_comments_number(get_the_ID());
                       $image = get_the_post_thumbnail(get_the_ID(), 'medium', array( 'class' => 'img-thumbnail hidden-xs' ));
                     endwhile;
                     wp_reset_postdata();
@@ -59,6 +60,7 @@ get_header();
                         <h4><a href="<?php echo $permalink ?>"><?php echo $title; ?></a></h4>
                         <div class="entry-content">
                             <?php echo apply_filters( 'the_content', $content ); ?>
+                            |<?php echo $comments; ?>|
                         </div>
                     </div>
                 </div>
