@@ -22,7 +22,15 @@ get_header();
                       $title = get_the_title();
                       $content = get_the_content();
                       $permalink = get_permalink( get_the_ID());
-                      $comments =  get_comments_number(get_the_ID());
+                      $num_comments =  get_comments_number();
+                        if ( $num_comments == 0 ) {
+                            $comments = __('No Comments');
+                        } elseif ( $num_comments > 1 ) {
+                            $comments = $num_comments . __(' Comments');
+                        } else {
+                            $comments = __('1 Comment');
+                        }
+                        $write_comments = '<a href="' . get_comments_link() .'">'. $comments.'</a>';
                       $image = get_the_post_thumbnail(get_the_ID(), 'medium', array( 'class' => 'img-thumbnail hidden-xs' ));
                     endwhile;
                     wp_reset_postdata();
@@ -60,7 +68,7 @@ get_header();
                         <h4><a href="<?php echo $permalink ?>"><?php echo $title; ?></a></h4>
                         <div class="entry-content">
                             <?php echo apply_filters( 'the_content', $content ); ?>
-                            |<?php echo $comments; ?>|
+                            <p><?php echo $write_comments; ?></p>
                         </div>
                     </div>
                 </div>
