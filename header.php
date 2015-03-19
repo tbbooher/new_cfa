@@ -28,16 +28,15 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:400,900|Lora:400,700|Jura' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="http://localhost/gym/wp-content/themes/new_cfa/img/fav.png" type="image/x-icon" />
 
+<?php nocache_headers() ?>
+    
 <!--wordpress head-->
 
 <?php wp_head(); ?>
     
-<?php
 
-header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
-header("Cache-Control: post-check=0, pre-check=0", false);
-header("Pragma: no-cache");
-?>
+
+    
 </head>
 <body <?php body_class(); ?>>
 <!--[if lt IE 8]>
