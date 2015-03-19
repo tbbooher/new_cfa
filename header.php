@@ -29,7 +29,13 @@
 <link rel="shortcut icon" href="http://localhost/gym/wp-content/themes/new_cfa/img/fav.png" type="image/x-icon" />
 
 <!--wordpress head-->
+
 <?php wp_head(); ?>
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+    
 </head>
 <body <?php body_class(); ?>>
 <!--[if lt IE 8]>
