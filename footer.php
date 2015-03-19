@@ -65,7 +65,7 @@
                   <ul class="social social-icons-footer-bottom">
                     <li class="facebook"><a href="https://www.facebook.com/pages/CrossFit-Adaptation/115019278525818" data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
                     <li class="twitter"><a href="https://twitter.com/cfadaptation" data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li class="rss"><a data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="Rss"><i class="fa fa-rss"></i></a></li>
+                    <li class="rss"><a href="http://www.crossfitadaptation.com/wod/feed/" data-toggle="tooltip" title="wod feed" style="cursor: pointer;" data-original-title="Rss"><i class="fa fa-rss"></i></a></li>
                   </ul>
                 </div>
               </div>
