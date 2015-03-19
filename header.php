@@ -31,11 +31,13 @@
 <!--wordpress head-->
 
 <?php wp_head(); ?>
-
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta http-equiv="Expires" content="0" />
     
+<?php
+
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+?>
 </head>
 <body <?php body_class(); ?>>
 <!--[if lt IE 8]>
