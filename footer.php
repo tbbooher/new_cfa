@@ -17,7 +17,6 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-12 col-md-12">
-                  <h2 class="text-center">Partners</h2>
                   <ul class="list-unstyled list-inline text-center">
                     <li><?php partnerUrl('http://dc.mypowersupply.com/','power_supply-final.png'); ?></li>
                     <li><?php partnerUrl('http://www.thejacksonclinics.com/services/health/crossfit-program','jackson_clinics-final.png'); ?></li>
