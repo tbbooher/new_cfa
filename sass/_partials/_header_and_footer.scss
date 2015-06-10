@@ -1,5 +1,4 @@
 // the member menu (menu top)
-
 .top-bar {    
     .container {
         padding: 0em;
@@ -68,6 +67,28 @@
     color: $font-on-dark;
     float: left;
     margin: 4px 0 0;
+}
+
+// parters logos aside
+.partners {
+    padding-bottom: 3em;
+
+    ul {
+        margin: 25px 0 0;
+        li {
+            padding: 0 25px 0 0;
+            &:last-child {
+                padding-right: 0px;
+            }
+
+            a {
+                opacity: 0.5;
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+        }        
+    }
 }
 
 /* %%%%% FOOTER WORK %%%%% */
@@ -227,3 +248,59 @@
 //        cursor: pointer;
 //    }
 //}
+
+//  custom responsive fixed
+
+@media (min-width: 768px) and (max-width: 980px) { 
+    
+    .top-bar {
+        .left-col {
+            padding: 10px 0 0 20px;
+            span {
+                font-size:13px;
+            }            
+        }
+        .nav {
+            a {
+                padding: 10px 7px;
+                font-size:13px;
+            }
+        }
+    }
+
+    .partners {
+
+        ul {
+            li {
+                padding: 0 25px 20px 0;                              
+            }        
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+    .partners {
+        padding-bottom: 3em;
+
+        ul {
+            margin: 35px 0 0;
+            li {
+                padding: 0 0 20px;                
+                display: block;
+                
+            }        
+        }
+    }
+    
+} 
+
+@media (max-width: 419px) {
+    .top-bar {
+        .nav {
+            a {
+                padding: 10px 7px;
+            }
+        }
+    }
+} 

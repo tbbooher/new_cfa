@@ -85,5 +85,5 @@
                 </div>
         </header>    
 
-        <div id="content" class="container">
+        <div id="content" >
             <div class="row">

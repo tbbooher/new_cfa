@@ -9,6 +9,50 @@
 			</div><!--.site-content-->			
 		</div><!--.container page-container-->
 		
+    <!-- wordpress aside -->
+
+        <!-- partners -->
+        <aside class="partners">
+          <!-- Aside Start -->
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 col-md-12">
+                  <h2 class="text-center">Partners</h2>
+                  <ul class="list-unstyled list-inline text-center">
+                    <li>
+                      <a href="http://dc.mypowersupply.com/" target="_blank">
+                        <img src="http://localhost:8080/Elance/crossfitadaption/wp-content/themes/new_cfa/img/partners/power_supply-final.png" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.thejacksonclinics.com/services/health/crossfit-program" target="_blank">
+                        <img src="http://localhost:8080/Elance/crossfitadaption/wp-content/themes/new_cfa/img/partners/jackson_clinics-final.png" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.customfitmeals.com/" target="_blank">
+                        <img src="http://localhost:8080/Elance/crossfitadaption/wp-content/themes/new_cfa/img/partners/meal-final.png" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.kxphotos.com" target="_blank">
+                        <img src="http://localhost:8080/Elance/crossfitadaption/wp-content/themes/new_cfa/img/partners/Kx-final.png" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://www.theboxpass.com" target="_blank">
+                        <img src="http://localhost:8080/Elance/crossfitadaption/wp-content/themes/new_cfa/img/partners/box_pass-final2.png" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>      
+          <!-- Aside Start end -->
+        </aside>
+        <!-- partners end -->
+    <!-- wordpress aside end -->
+
 		<!--wordpress footer-->
 
         <!-- new from pix %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->

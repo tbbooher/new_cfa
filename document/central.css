@@ -3854,4 +3854,5 @@ input[type=text],textarea,.mk-grid div,[class*=mk-col-],:after,:before,.text-inp
         width: 97%!important;
     }
 
-    .news-half-with-image,.news-fourth-with-imag
+    .news-half-with-image,.news-fourth-with-imag {}
+}
