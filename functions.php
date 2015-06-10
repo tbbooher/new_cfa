@@ -29,7 +29,7 @@ add_action('admin_menu', 'post_remove');
  */
 function partnerUrl($link_url, $img_name)
 {
-echo '<a href="' . $link_url . '"><img src="' . get_bloginfo('template_directory') . '/img/partners/'. $img_name . '"></a>';                     
+echo '<a href="' . $link_url . '" target="_blank"><img src="' . get_bloginfo('template_directory') . '/img/partners/'. $img_name . '"></a>';                     
 }
 
 /**
