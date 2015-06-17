@@ -84,6 +84,14 @@
                     <!-- navigation -->
                 </div>
         </header>    
+    </div>
 
+    <section class="container-fluid">
+        <div class="row hidden-sm hidden-xs" align="center">
+              <?php if ( function_exists( "easingsliderlite" ) ) { easingsliderlite(); } ?>
+        </div>
+    </section>
+
+    <div class="container page-container sticky-wrapper">
         <div id="content" >
             <div class="row">
