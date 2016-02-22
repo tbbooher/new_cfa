@@ -20,7 +20,7 @@
                   <ul class="list-unstyled list-inline text-center">
                     <li><?php partnerUrl('http://dc.mypowersupply.com/','power_supply-final.png'); ?></li>
                     <li><?php partnerUrl('http://www.thejacksonclinics.com/services/health/crossfit-program','jackson_clinics-final.png'); ?></li>
-                    <li><?php partnerUrl('https://www.customfitmeals.com/order-meals','meal-final.png'); ?></li>
+                    <li><?php partnerUrl('http://tri.freshmealplan.com/','fresh_meal.gif'); ?></li>
                     <li><?php partnerUrl('http://crossfunctionalrehab.com/free-consultation/', 'affiliate-cross_functional.gif'); ?></li>
                   </ul>
                 </div>
