@@ -20,6 +20,7 @@
                   <ul class="list-unstyled list-inline text-center">
                     <li><?php partnerUrl('http://dc.mypowersupply.com/','power_supply-final.png'); ?></li>
                     <li><?php partnerUrl('http://www.thejacksonclinics.com/services/health/crossfit-program','jackson_clinics-final.png'); ?></li>
+                    <li><?php partnerUrl('http://www.airrosti.com/','airrosti-logo.png'); ?></li>
                   </ul>
                 </div>
               </div>
